@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "aedes": "^0.46.1",
+    "kafkajs": "^1.15.0",
+    "mqtt": "^4.2.8",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "name": "mqttkafka",
+  "types": "mqttKafka.d.ts",
+  "version": "0.1.0",
+  "main": "mqttKafka.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
