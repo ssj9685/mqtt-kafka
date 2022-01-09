@@ -1,3 +1,8 @@
+# mqtt kafka
+
+## usage
+
+```javascript
 import aedes from "aedes";
 import mqttKafka from "./mqttKafka.js";
 import net from "net";
@@ -10,3 +15,4 @@ mqttBroker.listen(1884, () => console.log("mqttBroker on 1884"));
 
 mqttKafka(mqttHost, kafkaBrokers, "temperature");
 mqttKafka(mqttHost, kafkaBrokers, "test");
+```
